@@ -1,0 +1,13 @@
+1: Start
+2: Read the input string str.
+3: Initialize flag = 0.
+4: Calculate len = length of str.
+5: For i = 0 to len / 2:
+   5.1: If str.charAt(i) != str.charAt(len - 1 - i):
+       5.1.1: Set flag = 1.
+       5.1.2: Break the loop.
+6: If flag == 0:
+   6.1: Print "The string is a palindrome".
+7: Else:
+   7.1 :  Print "The string is not a palindrome".
+8: End
