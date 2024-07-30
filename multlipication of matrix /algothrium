@@ -1,0 +1,19 @@
+
+
+1. **Input:**
+   - Read dimensions of matrices A and B (rowsA, colsA, rowsB, colsB).
+   - Ensure colsA equals rowsB for valid multiplication.
+
+2. **Initialize Result Matrix:**
+   - Create an empty result matrix C with dimensions (rowsA × colsB).
+
+3. **Matrix Multiplication:**
+   - For each row `i` in matrix A:
+     - For each column `j` in matrix B:
+       - Initialize `C[i][j]` to 0.
+       - For each common index `k`:
+         - Compute `C[i][j] += A[i][k] * B[k][j]`.
+
+4. **Output:**
+   - Print matrix C.
+
