@@ -1,0 +1,19 @@
+Start
+Initialize Scanner
+  Scanner sc = new Scanner(System.in)
+Input String
+   Print "Enter a string:"
+    s1 = sc.nextLine()
+Input Character
+    Print "Enter the character to find out:"
+     key = sc.next().charAt(0)
+Initialize Count
+    count = 0
+Find Length
+    len = s1.length()
+Iterate Through String
+    For i from 0 to len - 1:
+    If s1.charAt(i) == key, then count++
+Output Result
+    Print "The count of 'key' is count"
+End
