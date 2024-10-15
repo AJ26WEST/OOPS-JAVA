@@ -1,3 +1,9 @@
+/*
+ * Name: ABHISHEK JOJI
+ * Date: 14-10-2024
+ * Purpose: Write a file handling problem in java with reader/writer
+ */
+
 import java.io.*;
 import java.util.*;
 
