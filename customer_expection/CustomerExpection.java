@@ -1,3 +1,9 @@
+/*
+ * Name: ABHISHEK JOJI
+ * Date: 10-10-2024
+ * Purpose: write a java program to demostrate the use of garbage collector
+ */
+
 import java.util.Scanner;
 
 class InvalidAmountException extends Exception{
