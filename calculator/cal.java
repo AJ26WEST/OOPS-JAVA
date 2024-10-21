@@ -7,10 +7,10 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 
     // Creating a frame
     private JFrame frame;
-   
+
     // Creating text fields
     private JTextField textField1, textField2, resultField;
-   
+
     // Creating buttons
     private JButton addButton, subtractButton, multiplyButton, divideButton;
 
@@ -23,7 +23,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         textField1 = new JTextField(10);
         textField2 = new JTextField(10);
         resultField = new JTextField(10);
-       
+
         // Set the resultField to be non-editable
         resultField.setEditable(false);
 
@@ -41,7 +41,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 
         // Creating a panel
         JPanel panel = new JPanel();
-       
+
         // Adding components to the panel
         panel.add(new JLabel("Number 1:"));
         panel.add(textField1);
@@ -56,7 +56,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 
         // Adding panel to frame
         frame.add(panel);
-       
+
         // Setting frame size and visibility
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
